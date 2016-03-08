@@ -1,0 +1,32 @@
+{
+  "name": "cause-email-notification",
+  "version": "0.0.0",
+  "description": "sends out an email notification",
+  "main": "index.js",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "freder.code@gmail.com",
+  "dependencies": {
+    "lodash": "^4.5.1",
+    "nodemailer": "^2.2.1",
+    "nodemailer-html-to-text": "^1.0.2",
+    "nodemailer-mailgun-transport": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freder/cause-email-notification.git"
+  },
+  "keywords": [
+    "cause",
+    "cause-block",
+    "email",
+    "notification"
+  ],
+  "bugs": {
+    "url": "https://github.com/freder/cause-email-notification/issues"
+  },
+  "homepage": "https://github.com/freder/cause-email-notification"
+}
